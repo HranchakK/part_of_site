@@ -110,6 +110,7 @@ ul li {
 .filter-product {
   display: inline-block;
   border: 0.03rem solid rgb(189, 187, 187);
+  border-radius: 0.3rem;
   cursor: pointer; 
   position: relative;
   margin: 1rem;
@@ -127,4 +128,9 @@ ul li {
 .filter-product:hover ul {
   display: block;
   position: absolute;
+}
+
+.filter-product:hover ul li:hover {
+  background-color: #792c9b;
+  color: white;
 }
